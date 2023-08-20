@@ -81,7 +81,7 @@ namespace ProgramacionOrientadaObjetos
                     label5.Text = "Con estas medidas NO es posible formar un triangulo";
                 }
                 
-            } catch(Exception Error) {
+            } catch(Exception ) {
                 MessageBox.Show("Error","Errorsito", MessageBoxButtons.OK,
                     MessageBoxIcon.Warning);
             }

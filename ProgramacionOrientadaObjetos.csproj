@@ -52,11 +52,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Catalogo.cs">
+    <Compile Include="Form_catalogo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Catalogo.Designer.cs">
-      <DependentUpon>Form_Catalogo.cs</DependentUpon>
+    <Compile Include="Form_catalogo.Designer.cs">
+      <DependentUpon>Form_catalogo.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Encuesta.cs">
       <SubType>Form</SubType>
@@ -108,8 +108,8 @@
     <EmbeddedResource Include="Formula_General.resx">
       <DependentUpon>Formula_General.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Catalogo.resx">
-      <DependentUpon>Form_Catalogo.cs</DependentUpon>
+    <EmbeddedResource Include="Form_catalogo.resx">
+      <DependentUpon>Form_catalogo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Encuesta.resx">
       <DependentUpon>Form_Encuesta.cs</DependentUpon>

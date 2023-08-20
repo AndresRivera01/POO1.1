@@ -37,6 +37,13 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -66,6 +73,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(551, 515);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox2_Paint);
             // 
             // pictureBox3
             // 
@@ -75,6 +83,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(551, 515);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox3_Paint);
             // 
             // pictureBox4
             // 
@@ -84,6 +93,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(551, 515);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox4_Paint);
             // 
             // pictureBox5
             // 
@@ -93,6 +103,7 @@
             this.pictureBox5.Size = new System.Drawing.Size(551, 515);
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox5_Paint);
             // 
             // pictureBox6
             // 
@@ -103,6 +114,7 @@
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            this.pictureBox6.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox6_Paint);
             // 
             // pictureBox7
             // 
@@ -112,6 +124,7 @@
             this.pictureBox7.Size = new System.Drawing.Size(551, 515);
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox7_Paint);
             // 
             // pictureBox8
             // 
@@ -121,6 +134,7 @@
             this.pictureBox8.Size = new System.Drawing.Size(551, 515);
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox8_Paint);
             // 
             // label1
             // 
@@ -131,11 +145,82 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Trebol";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(895, 22);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(99, 25);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Circulo X";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(1465, 40);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(156, 25);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Circulo centros";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(2047, 31);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(164, 25);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Triangulo Doble";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(230, 606);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(113, 25);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Triangulos";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(852, 606);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(74, 25);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Vortex";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(1516, 606);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(127, 25);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "Peso Pluma";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(2084, 606);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(74, 25);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "Carcel";
+            // 
             // IlusionesDos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2494, 1157);
+            this.ClientSize = new System.Drawing.Size(2360, 1118);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
@@ -172,5 +257,12 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
     }
 }

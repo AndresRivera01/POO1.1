@@ -69,7 +69,7 @@ namespace ProgramacionOrientadaObjetos
 
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
-            new Form_Catalogo().ShowDialog();
+            new Form_catalogo().ShowDialog();
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)

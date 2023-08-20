@@ -53,7 +53,7 @@ namespace ProgramacionOrientadaObjetos
                 label5.Text = ("X2= " + x2);
 
             }
-            catch  (Exception ex)
+            catch  (Exception )
             {
                 MessageBox.Show("Algunos de los datos no son validos");
             }
